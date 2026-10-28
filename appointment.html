@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+  <title>
+   Book an Appointment | Dhanvanthri Physiotherapy Center, Namakkal
+  </title>
+  <meta content="Request an appointment at Dhanvanthri Physiotherapy Center, Namakkal." name="description"/>
+  <link href="https://example.com/appointment.html" rel="canonical"/>
+  <meta content="Book an Appointment | Dhanvanthri Physiotherapy Center, Namakkal" property="og:title"/>
+  <meta content="Request an appointment at Dhanvanthri Physiotherapy Center, Namakkal." property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <link href="assets/favicon.jpeg" rel="icon" type="image/jpeg"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="css/base.css" rel="stylesheet"/>
+  <link href="css/layout.css" rel="stylesheet"/>
+  <link href="css/components.css" rel="stylesheet"/>
+  <link href="css/home.css" rel="stylesheet"/>
+  <link href="css/responsive.css" rel="stylesheet"/>
+  <noscript>
+   <style>
+    .reveal{opacity:1;transform:none}
+   </style>
+  </noscript>
+ </head>
+ <body data-page="appointment">
+  <a class="skip" href="#main">
+   Skip to content
+  </a>
+  <div id="site-top">
+  </div>
+  <main id="main" tabindex="-1">
+   <div class="pagehero">
+    <div class="w">
+     <div aria-label="Breadcrumb" class="crumbs" role="navigation">
+      <a href="index.html">
+       Home
+      </a>
+      /
+      <span aria-current="page">
+       Book an Appointment
+      </span>
+     </div>
+     <h1>
+      Take the First Step Towards Better Recovery
+     </h1>
+    </div>
+   </div>
+   <section>
+    <div class="w two" style="align-items:start">
+     <form aria-label="Request an Appointment" data-kind="book" id="f" novalidate="">
+      <div>
+       <label for="name">
+        Full Name
+       </label>
+       <input id="name" name="name" required="" type="text"/>
+       <p class="err" id="e-name">
+       </p>
+      </div>
+      <div>
+       <label for="phone">
+        Phone Number
+       </label>
+       <input id="phone" name="phone" required="" type="tel"/>
+       <p class="err" id="e-phone">
+       </p>
+      </div>
+      <div>
+       <label for="email">
+        Email (optional)
+       </label>
+       <input id="email" name="email" type="email"/>
+       <p class="err" id="e-email">
+       </p>
+      </div>
+      <div>
+       <label for="service">
+        Treatment / Concern
+       </label>
+       <select id="service" name="service" required="">
+        <option value="">
+         Select
+        </option>
+        <option>
+         Pain Management &amp; Rehabilitation
+        </option>
+        <option>
+         Neurological Rehabilitation
+        </option>
+        <option>
+         Spine, Neck &amp; Back Pain
+        </option>
+        <option>
+         Post-Surgical Rehabilitation
+        </option>
+        <option>
+         Geriatric Physiotherapy
+        </option>
+        <option>
+         Pediatric Physiotherapy
+        </option>
+        <option>
+         Orthopedic Physiotherapy
+        </option>
+        <option>
+         Sports Injury Rehabilitation
+        </option>
+        <option>
+         Not sure
+        </option>
+       </select>
+       <p class="err" id="e-service">
+       </p>
+      </div>
+      <div>
+       <label for="who">
+        Preferred Practitioner (optional)
+       </label>
+       <select id="who" name="who">
+        <option value="">
+         Select
+        </option>
+        <option>
+         No preference
+        </option>
+        <option>
+         Dr. Kartik
+        </option>
+       </select>
+       <p class="err" id="e-who">
+       </p>
+      </div>
+      <div>
+       <label for="visit">
+        New or Returning Patient
+       </label>
+       <select id="visit" name="visit" required="">
+        <option value="">
+         Select
+        </option>
+        <option>
+         New patient
+        </option>
+        <option>
+         Returning patient
+        </option>
+       </select>
+       <p class="err" id="e-visit">
+       </p>
+      </div>
+      <div>
+       <label for="date">
+        Preferred Date
+       </label>
+       <input id="date" min="2026-10-24" name="date" required="" type="date"/>
+       <p class="err" id="e-date">
+       </p>
+      </div>
+      <div>
+       <label for="time">
+        Preferred Time
+       </label>
+       <input id="time" name="time" required="" type="time"/>
+       <p class="err" id="e-time">
+       </p>
+      </div>
+      <div>
+       <label for="notes">
+        Additional Notes (optional)
+       </label>
+       <textarea id="notes" name="notes" rows="4"></textarea>
+       <p class="err" id="e-notes">
+       </p>
+      </div>
+      <div aria-hidden="true" class="hp">
+       <input autocomplete="off" name="website" tabindex="-1"/>
+      </div>
+      <div>
+       <label class="chk">
+        <input id="consent" required="" type="checkbox"/>
+        <span>
+         I agree that the clinic may use these details to respond to my request. See the
+         <a href="privacy-policy.html">
+          Privacy Policy
+         </a>
+         .
+        </span>
+       </label>
+       <p class="err" id="e-consent">
+       </p>
+      </div>
+      <button class="btn" id="sb" type="submit">
+       Request an Appointment
+      </button>
+      <div aria-live="polite" id="status" role="status">
+      </div>
+     </form>
+     <div>
+      <h2>
+       What happens next
+      </h2>
+      <ul class="ticks">
+       <li>
+        The clinic reviews your request
+       </li>
+       <li>
+        Our team contacts you to confirm a time
+       </li>
+       <li>
+        Your appointment is confirmed only after that call
+       </li>
+      </ul>
+      <p class="note">
+       Prefer to talk? Call
+       <a href="tel:+917373466622">
+        +91 73734 66622
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+   </section>
+  </main>
+  <div id="site-bottom">
+  </div>
+  <script src="js/config.js">
+  </script>
+  <script src="js/data.js">
+  </script>
+  <script src="js/layout.js">
+  </script>
+  <script src="js/forms.js">
+  </script>
+  <script src="js/filters.js">
+  </script>
+  <script src="js/photos.js">
+  </script>
+  <script src="js/main.js">
+  </script>
+ </body>
+</html>
+
